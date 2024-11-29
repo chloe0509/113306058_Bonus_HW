@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Center the form */
+.form-container {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Row Styles */
+.form-row {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.form-row2 {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 15px;
+}
+
+/* Label Styles */
+label {
+  width: 15%;
+  text-align: right;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Input and Textarea Styles */
+input[type="text"], 
+textarea {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+/* Specific adjustments for the textarea */
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+/* Style for inputs on the same row */
+.form-row input {
+  margin-right: 10px;
+}
+
+.form-row input:last-child {
+  margin-right: 0;
+}
+
+/* Style for the image container */
+.image-container img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+}
